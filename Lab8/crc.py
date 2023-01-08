@@ -1,6 +1,6 @@
 def xor(a, b):
     result = []
-    for i in range(0, len(b)):
+    for i in range(1, len(b)):
         if a[i] == b[i]:
             result.append('0')
         else:
